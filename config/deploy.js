@@ -6,7 +6,7 @@ module.exports = function(deployTarget) {
     // include other plugin configuration that applies to all deploy targets here
 
     git: {
-      repo: 'git@github.com:alexdiliberto/deploy-dummy-app.git',
+      repo: 'git@github.com:alexdiliberto/deploy-dummy-app.git', 
       branch: 'gh-pages',
       worktreePath: '/tmp/deploy'
     }
